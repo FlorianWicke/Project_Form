@@ -1,0 +1,127 @@
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+p {
+	line-height: 1.0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img{
+  width: 80px;
+  }
+
+input {
+    width: 80%;
+    border-style: solid;
+    border-radius: 5px;
+    height: 22px;
+    border-width: 1px;
+    padding-left: 10px;
+  }
+
+  input:invalid {
+    border-color: red;
+  }
+
+
+label {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.flex {
+background-color: white;
+display: grid;
+grid-template-columns: 40% 60%;
+height: 813px;
+margin-top: 150px;
+}
+
+.background{
+  background-image: url("richard-stachmann-VyCEIzLJ-YY-unsplash.jpg");
+  background-size: cover;
+}
+
+.logo{
+  margin-top: 200px;
+  background:	rgb(0,0,0, 0.2);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_2{
+  padding-top: 30px;
+}
+.text{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.right-side{
+  display: grid;
+  grid-template-rows: 34% 31% 35%;
+  background-color: #f8f7f7;
+}
+
+.form_section{
+  background-color: white;
+  border-color: black;
+  padding-left: 30px;
+  padding-top: 3%;
+  box-shadow: 1px 3px 3px #c9caca;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+.form_head{
+  margin-top: 1%;
+
+}
+
+.greet {
+  padding-top: 100px;
+  padding-left: 30px;
+  font-size: 22px;
+  padding-right: 100px;
+}
+.action {
+
+  padding-left: 30px;
+  padding-top: 30px
+}
+
+.action button {
+  background-color:#596D48;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  font-size: 15px;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.action p {
+  padding-top: 5%
+}
+
+.action :link{
+  color: brown;
+  text-decoration: none;
+}
+
+.match{
+  color: red;
+  font-size: 12px;
+}

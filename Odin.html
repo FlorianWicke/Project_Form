@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="blitz.png">
+  <link rel="stylesheet" href="style.css">
+  <title>sign-up</title>
+
+</head>
+<body>
+<div class="flex">
+  <div class="background">
+    <div class="logo">
+      <div class="center">
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="">
+      </div>
+      <div class="text">
+      <p>Odin</p>
+      </div>
+    </div>
+  </div>
+  <div class="right-side">
+    <div class="greet">
+    <p>
+    This is not real online service! You know you need something like this in your life to help
+    you realize youre deepest dreams.
+    Sign up <em>now</em> to get started.
+    </p>
+    <p class="text_2">
+    You <em>know</em> you want to.
+    </p>
+    </div>
+    <div class="form_section">
+      <p>Let´s do this!</p>
+      <div class="form_head">
+      <form action="" method="post">
+        <div class="form">
+      <label for="first_name">First Name</label>
+      <label for="last_name">Last Name</label>
+      <input type="text" name="first_name" id="first_name" placeholder="Thor">
+      <input type="text" name="last_name" id="last_name" placeholder="Odinson|">
+      <label for="email">Email</label>
+      <label for="phone">Phone Number</label>
+      <input type="email" name="email" id="email">
+      <input type="number" name="phone_number" id="phone_number">
+      <label for="password">Password</label>
+      <label for="password2">Confirm Password</label>
+      <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+      <input type="password" name="password2" id="password2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+      <p class="match">* Passwords do not match</p>
+    </div>
+      </form>
+
+    </div>
+
+    </div>
+    <div class="action">
+      <button type="submit">Create Account</button>
+      <p>Already hav an account? <a href="url">Log in</a>
+      </p>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
